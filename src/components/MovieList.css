@@ -64,3 +64,10 @@
 .movieList:hover .movieList--right {
     opacity: 1;
 }
+
+@media (max-width:760px) {
+    .movieList--left,
+    .movieList--right {
+        opacity: 1;
+    }
+}
